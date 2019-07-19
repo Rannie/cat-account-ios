@@ -1,0 +1,1180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250FC6B21F95CB4D006B3D9A /* CATFundAccService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 250FC6B11F95CB4D006B3D9A /* CATFundAccService.mm */; };
+		251ED98C1F6900610038F75C /* CATCategoryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 251ED98B1F6900610038F75C /* CATCategoryListCell.m */; };
+		251ED98F1F690C2F0038F75C /* CATCategoryIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251ED98E1F690C2F0038F75C /* CATCategoryIconView.m */; };
+		251ED9941F691D7F0038F75C /* CATKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251ED9931F691D7F0038F75C /* CATKeyboardView.m */; };
+		2523C10B1F676C02005AED1D /* CATBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523C10A1F676C02005AED1D /* CATBaseViewController.m */; };
+		2523C10E1F676C1D005AED1D /* CATNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523C10D1F676C1D005AED1D /* CATNaviController.m */; };
+		2523C1111F676EC6005AED1D /* CATBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523C1101F676EC6005AED1D /* CATBillViewController.m */; };
+		2523C1141F676ED8005AED1D /* CATReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523C1131F676ED8005AED1D /* CATReportViewController.m */; };
+		25244BCA1F7CDB7200C4E202 /* CATDateBrowserBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25244BC91F7CDB7200C4E202 /* CATDateBrowserBar.m */; };
+		25244BCD1F7CE6FC00C4E202 /* CATReportPieChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25244BCC1F7CE6FC00C4E202 /* CATReportPieChartCell.m */; };
+		252475CD1F9DBB23002D2098 /* CATBudgetService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252475CC1F9DBB23002D2098 /* CATBudgetService.mm */; };
+		252475D01F9DBB33002D2098 /* CATBudget.mm in Sources */ = {isa = PBXBuildFile; fileRef = 252475CF1F9DBB33002D2098 /* CATBudget.mm */; };
+		252475D41F9ED160002D2098 /* CATBudgetTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252475D31F9ED160002D2098 /* CATBudgetTitleView.m */; };
+		252475D71F9ED570002D2098 /* CATBudgetHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252475D61F9ED570002D2098 /* CATBudgetHeaderView.m */; };
+		252475DA1FA170A9002D2098 /* CATMonthBudgetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 252475D91FA170A9002D2098 /* CATMonthBudgetCell.m */; };
+		252475DD1FA170C0002D2098 /* CATCateBudgetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 252475DC1FA170C0002D2098 /* CATCateBudgetCell.m */; };
+		2527EDFC1F8EFF5100B7F900 /* CATCategoryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2527EDFB1F8EFF5100B7F900 /* CATCategoryHeaderView.m */; };
+		2527EE001F8F3D5300B7F900 /* CATFundAccount.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2527EDFF1F8F3D5300B7F900 /* CATFundAccount.mm */; };
+		252D75131F74E9B40026CCC4 /* launch_page_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252D750F1F74E9B30026CCC4 /* launch_page_icon@2x.png */; };
+		252D75141F74E9B40026CCC4 /* launch_page_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252D75101F74E9B30026CCC4 /* launch_page_icon@3x.png */; };
+		252D75151F74E9B40026CCC4 /* launch_page_name@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252D75111F74E9B30026CCC4 /* launch_page_name@2x.png */; };
+		252D75161F74E9B40026CCC4 /* launch_page_name@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252D75121F74E9B30026CCC4 /* launch_page_name@3x.png */; };
+		2530A69D1F6943CB004951BB /* CATInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2530A69C1F6943CB004951BB /* CATInfoView.m */; };
+		253157CC1FA848F700C6C8DB /* CATSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 253157CB1FA848F700C6C8DB /* CATSegmentControl.m */; };
+		2551A7361F724B2A00EB99E5 /* CATBillFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2551A7351F724B2A00EB99E5 /* CATBillFeed.m */; };
+		2551A7391F725DA200EB99E5 /* CATFeedDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2551A7381F725DA200EB99E5 /* CATFeedDayView.m */; };
+		2551A73F1F725DEE00EB99E5 /* CATFeedAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2551A73E1F725DEE00EB99E5 /* CATFeedAccountCell.m */; };
+		256D87D61F7DD30900A35D69 /* CATReportFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256D87D51F7DD30900A35D69 /* CATReportFooterView.m */; };
+		256F2CB81FA955E300ECF8F9 /* CATThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256F2CB71FA955E300ECF8F9 /* CATThemeViewController.m */; };
+		256F2CBB1FA95A0000ECF8F9 /* CATGreenTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 256F2CBA1FA95A0000ECF8F9 /* CATGreenTheme.m */; };
+		256F2CBE1FA95E9200ECF8F9 /* CATBlueTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 256F2CBD1FA95E9200ECF8F9 /* CATBlueTheme.m */; };
+		256F2CC11FA964C600ECF8F9 /* CATThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 256F2CC01FA964C600ECF8F9 /* CATThemeCell.m */; };
+		25717BE81F7369C90096237C /* CATBillListEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25717BE71F7369C90096237C /* CATBillListEmptyView.m */; };
+		257E1C1F1F66782500546C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E1C1E1F66782500546C30 /* main.m */; };
+		257E1C221F66782500546C30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E1C211F66782500546C30 /* AppDelegate.m */; };
+		257E1C2A1F66782500546C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E1C291F66782500546C30 /* Assets.xcassets */; };
+		257E1C3D1F66840200546C30 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 257E1C3C1F66840200546C30 /* Podfile */; };
+		257E1CBD1F6688C300546C30 /* CATTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E1CBC1F6688C300546C30 /* CATTabViewController.m */; };
+		257E1CC01F66892C00546C30 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E1CBF1F66892C00546C30 /* QMUIConfigurationTemplate.m */; };
+		257E1CC31F66895200546C30 /* CATAppContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 257E1CC21F66895200546C30 /* CATAppContext.mm */; };
+		258361DA1FAB14760006AA30 /* KMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361C81FAB14760006AA30 /* KMSwizzle.m */; };
+		258361DB1FAB14760006AA30 /* KMWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361CA1FAB14760006AA30 /* KMWeakObjectContainer.m */; };
+		258361DC1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361CC1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.m */; };
+		258361DD1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361CE1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.m */; };
+		258361DE1FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361D11FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.m */; };
+		258361DF1FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361D41FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.m */; };
+		258361E01FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 258361D71FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.m */; };
+		2585730C1F9482AD009DD1FB /* CATBillPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585730B1F9482AD009DD1FB /* CATBillPresenter.m */; };
+		2586152B1F9D7FA400337345 /* CATFundAccCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2586152A1F9D7FA400337345 /* CATFundAccCell.m */; };
+		258AF13E1F7CA6490057FC31 /* CATCategoryDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 258AF13D1F7CA6490057FC31 /* CATCategoryDataSet.m */; };
+		2593AFAF1F8DAE5800BB9B2E /* CATCategoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2593AFAE1F8DAE5800BB9B2E /* CATCategoryDetailViewController.m */; };
+		25996A531F70A6DF009614CE /* CATMonthDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25996A521F70A6DF009614CE /* CATMonthDataView.m */; };
+		259C63251F78D41800A8F695 /* AdhocExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 259C63241F78D41800A8F695 /* AdhocExportOptions.plist */; };
+		25A021981FA2FB3A001174F1 /* CATUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A021971FA2FB3A001174F1 /* CATUtil.m */; };
+		25A84E9E1FA8172C00F80E96 /* CATTimeCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A84E9D1FA8172C00F80E96 /* CATTimeCenter.m */; };
+		25AA5E4C1F7E159D007106AD /* CATStaticTableCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA5E4B1F7E159D007106AD /* CATStaticTableCellData.m */; };
+		25AA5E4F1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA5E4E1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.m */; };
+		25AA5E521F7E1E7E007106AD /* CATStaticTableSectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AA5E511F7E1E7E007106AD /* CATStaticTableSectionData.m */; };
+		25B71CDE1F9844200013235D /* CATThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B71CDD1F9844200013235D /* CATThemeManager.m */; };
+		25B71CE11F9845020013235D /* CATDefaultTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B71CE01F9845020013235D /* CATDefaultTheme.m */; };
+		25B85DB41F998310008259A5 /* CATAccountHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B85DB31F998310008259A5 /* CATAccountHeaderView.m */; };
+		25BA57381F943D2C007C7332 /* CATWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA57371F943D2C007C7332 /* CATWalletViewController.m */; };
+		25BA573B1F944849007C7332 /* CATTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BA573A1F944847007C7332 /* CATTabBarItem.m */; };
+		25BA7BB11F68BB1300BADCD7 /* CATCategory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25BA7BB01F68BB1300BADCD7 /* CATCategory.mm */; };
+		25BC49DD1F6A4ED300B71B9A /* CATDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BC49DC1F6A4ED300B71B9A /* CATDatePickerView.m */; };
+		25BFB97C1F7F857C00692772 /* CATMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFB97A1F7F857B00692772 /* CATMoreViewController.m */; };
+		25BFB9801F7F85B700692772 /* CATAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFB97E1F7F85B700692772 /* CATAboutViewController.m */; };
+		25BFB9811F7F85B700692772 /* CATAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BFB97F1F7F85B700692772 /* CATAboutViewController.xib */; };
+		25C7FC721F67ADA500E9D6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C7FC711F67ADA500E9D6AE /* LaunchScreen.storyboard */; };
+		25C7FC761F67B4A700E9D6AE /* CATAccount.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FC751F67B4A700E9D6AE /* CATAccount.mm */; };
+		25C7FC7C1F67BEB900E9D6AE /* CATDBManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FC7B1F67BEB900E9D6AE /* CATDBManager.mm */; };
+		25C7FC7F1F67C73F00E9D6AE /* CATCategoryService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FC7E1F67C73F00E9D6AE /* CATCategoryService.mm */; };
+		25C7FC821F67C75500E9D6AE /* CATAccountService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FC811F67C75500E9D6AE /* CATAccountService.mm */; };
+		25C7FC851F67D7C700E9D6AE /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25C7FC841F67D7C700E9D6AE /* Categories.plist */; };
+		25C824541F68CF040072493F /* CATAddBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C824531F68CF040072493F /* CATAddBillViewController.m */; };
+		25D227FD1F6B79E2002FDCC7 /* CATWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D227FC1F6B79E2002FDCC7 /* CATWebViewController.m */; };
+		25E47FF71F8C9EC800365991 /* Library.html in Resources */ = {isa = PBXBuildFile; fileRef = 25E47FF61F8C9EB600365991 /* Library.html */; };
+		D078CAACDCD54A266AC8786A /* Pods_CatAccounting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA18B682BCD4214D56F7E3C /* Pods_CatAccounting.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0490FD21D61740859B5500F7 /* Pods-CatAccounting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAccounting.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting.release.xcconfig"; sourceTree = "<group>"; };
+		250FC6B01F95CB4D006B3D9A /* CATFundAccService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATFundAccService.h; sourceTree = "<group>"; };
+		250FC6B11F95CB4D006B3D9A /* CATFundAccService.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CATFundAccService.mm; sourceTree = "<group>"; };
+		250FC6B51F95D262006B3D9A /* CATFundAccount+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CATFundAccount+WCTTableCoding.h"; sourceTree = "<group>"; };
+		251ED98A1F6900610038F75C /* CATCategoryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCategoryListCell.h; sourceTree = "<group>"; };
+		251ED98B1F6900610038F75C /* CATCategoryListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATCategoryListCell.m; sourceTree = "<group>"; };
+		251ED98D1F690C2F0038F75C /* CATCategoryIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCategoryIconView.h; sourceTree = "<group>"; };
+		251ED98E1F690C2F0038F75C /* CATCategoryIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATCategoryIconView.m; sourceTree = "<group>"; };
+		251ED9901F6916BC0038F75C /* CATAccount+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATAccount+WCTTableCoding.h"; sourceTree = "<group>"; };
+		251ED9921F691D7F0038F75C /* CATKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATKeyboardView.h; sourceTree = "<group>"; };
+		251ED9931F691D7F0038F75C /* CATKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATKeyboardView.m; sourceTree = "<group>"; };
+		2523C1091F676C02005AED1D /* CATBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATBaseViewController.h; sourceTree = "<group>"; };
+		2523C10A1F676C02005AED1D /* CATBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATBaseViewController.m; sourceTree = "<group>"; };
+		2523C10C1F676C1D005AED1D /* CATNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATNaviController.h; sourceTree = "<group>"; };
+		2523C10D1F676C1D005AED1D /* CATNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATNaviController.m; sourceTree = "<group>"; };
+		2523C10F1F676EC6005AED1D /* CATBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATBillViewController.h; sourceTree = "<group>"; };
+		2523C1101F676EC6005AED1D /* CATBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATBillViewController.m; sourceTree = "<group>"; };
+		2523C1121F676ED8005AED1D /* CATReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATReportViewController.h; sourceTree = "<group>"; };
+		2523C1131F676ED8005AED1D /* CATReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATReportViewController.m; sourceTree = "<group>"; };
+		25244BC81F7CDB7200C4E202 /* CATDateBrowserBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATDateBrowserBar.h; sourceTree = "<group>"; };
+		25244BC91F7CDB7200C4E202 /* CATDateBrowserBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATDateBrowserBar.m; sourceTree = "<group>"; };
+		25244BCB1F7CE6FC00C4E202 /* CATReportPieChartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATReportPieChartCell.h; sourceTree = "<group>"; };
+		25244BCC1F7CE6FC00C4E202 /* CATReportPieChartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATReportPieChartCell.m; sourceTree = "<group>"; };
+		252475CB1F9DBB23002D2098 /* CATBudgetService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBudgetService.h; sourceTree = "<group>"; };
+		252475CC1F9DBB23002D2098 /* CATBudgetService.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CATBudgetService.mm; sourceTree = "<group>"; };
+		252475CE1F9DBB33002D2098 /* CATBudget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBudget.h; sourceTree = "<group>"; };
+		252475CF1F9DBB33002D2098 /* CATBudget.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CATBudget.mm; sourceTree = "<group>"; };
+		252475D11F9DBDBB002D2098 /* CATBudget+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CATBudget+WCTTableCoding.h"; sourceTree = "<group>"; };
+		252475D21F9ED160002D2098 /* CATBudgetTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBudgetTitleView.h; sourceTree = "<group>"; };
+		252475D31F9ED160002D2098 /* CATBudgetTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATBudgetTitleView.m; sourceTree = "<group>"; };
+		252475D51F9ED570002D2098 /* CATBudgetHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBudgetHeaderView.h; sourceTree = "<group>"; };
+		252475D61F9ED570002D2098 /* CATBudgetHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATBudgetHeaderView.m; sourceTree = "<group>"; };
+		252475D81FA170A9002D2098 /* CATMonthBudgetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATMonthBudgetCell.h; sourceTree = "<group>"; };
+		252475D91FA170A9002D2098 /* CATMonthBudgetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATMonthBudgetCell.m; sourceTree = "<group>"; };
+		252475DB1FA170C0002D2098 /* CATCateBudgetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATCateBudgetCell.h; sourceTree = "<group>"; };
+		252475DC1FA170C0002D2098 /* CATCateBudgetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATCateBudgetCell.m; sourceTree = "<group>"; };
+		2527EDFA1F8EFF5100B7F900 /* CATCategoryHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATCategoryHeaderView.h; sourceTree = "<group>"; };
+		2527EDFB1F8EFF5100B7F900 /* CATCategoryHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATCategoryHeaderView.m; sourceTree = "<group>"; };
+		2527EDFE1F8F3D5300B7F900 /* CATFundAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATFundAccount.h; sourceTree = "<group>"; };
+		2527EDFF1F8F3D5300B7F900 /* CATFundAccount.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CATFundAccount.mm; sourceTree = "<group>"; };
+		252D750F1F74E9B30026CCC4 /* launch_page_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_page_icon@2x.png"; sourceTree = "<group>"; };
+		252D75101F74E9B30026CCC4 /* launch_page_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_page_icon@3x.png"; sourceTree = "<group>"; };
+		252D75111F74E9B30026CCC4 /* launch_page_name@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_page_name@2x.png"; sourceTree = "<group>"; };
+		252D75121F74E9B30026CCC4 /* launch_page_name@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_page_name@3x.png"; sourceTree = "<group>"; };
+		2530A69B1F6943CB004951BB /* CATInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATInfoView.h; sourceTree = "<group>"; };
+		2530A69C1F6943CB004951BB /* CATInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATInfoView.m; sourceTree = "<group>"; };
+		253157CA1FA848F700C6C8DB /* CATSegmentControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATSegmentControl.h; sourceTree = "<group>"; };
+		253157CB1FA848F700C6C8DB /* CATSegmentControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATSegmentControl.m; sourceTree = "<group>"; };
+		2551A7341F724B2A00EB99E5 /* CATBillFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBillFeed.h; sourceTree = "<group>"; };
+		2551A7351F724B2A00EB99E5 /* CATBillFeed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATBillFeed.m; sourceTree = "<group>"; };
+		2551A7371F725DA200EB99E5 /* CATFeedDayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATFeedDayView.h; sourceTree = "<group>"; };
+		2551A7381F725DA200EB99E5 /* CATFeedDayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATFeedDayView.m; sourceTree = "<group>"; };
+		2551A73D1F725DEE00EB99E5 /* CATFeedAccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATFeedAccountCell.h; sourceTree = "<group>"; };
+		2551A73E1F725DEE00EB99E5 /* CATFeedAccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATFeedAccountCell.m; sourceTree = "<group>"; };
+		256D83E31FAC0EBF00E847F7 /* CatAccounting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CatAccounting.entitlements; sourceTree = "<group>"; };
+		256D87D41F7DD30900A35D69 /* CATReportFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATReportFooterView.h; sourceTree = "<group>"; };
+		256D87D51F7DD30900A35D69 /* CATReportFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATReportFooterView.m; sourceTree = "<group>"; };
+		256F2CB61FA955E300ECF8F9 /* CATThemeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATThemeViewController.h; sourceTree = "<group>"; };
+		256F2CB71FA955E300ECF8F9 /* CATThemeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATThemeViewController.m; sourceTree = "<group>"; };
+		256F2CB91FA95A0000ECF8F9 /* CATGreenTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATGreenTheme.h; sourceTree = "<group>"; };
+		256F2CBA1FA95A0000ECF8F9 /* CATGreenTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATGreenTheme.m; sourceTree = "<group>"; };
+		256F2CBC1FA95E9200ECF8F9 /* CATBlueTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBlueTheme.h; sourceTree = "<group>"; };
+		256F2CBD1FA95E9200ECF8F9 /* CATBlueTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATBlueTheme.m; sourceTree = "<group>"; };
+		256F2CBF1FA964C600ECF8F9 /* CATThemeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATThemeCell.h; sourceTree = "<group>"; };
+		256F2CC01FA964C600ECF8F9 /* CATThemeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATThemeCell.m; sourceTree = "<group>"; };
+		25717BE51F735E850096237C /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		25717BE61F7369C90096237C /* CATBillListEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBillListEmptyView.h; sourceTree = "<group>"; };
+		25717BE71F7369C90096237C /* CATBillListEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATBillListEmptyView.m; sourceTree = "<group>"; };
+		257E1C1A1F66782500546C30 /* CatAccounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAccounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257E1C1E1F66782500546C30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		257E1C201F66782500546C30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		257E1C211F66782500546C30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		257E1C291F66782500546C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		257E1C2E1F66782500546C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257E1C3C1F66840200546C30 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		257E1C481F66850B00546C30 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		257E1CBB1F6688C300546C30 /* CATTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATTabViewController.h; sourceTree = "<group>"; };
+		257E1CBC1F6688C300546C30 /* CATTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATTabViewController.m; sourceTree = "<group>"; };
+		257E1CBE1F66892C00546C30 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		257E1CBF1F66892C00546C30 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		257E1CC11F66895200546C30 /* CATAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATAppContext.h; sourceTree = "<group>"; };
+		257E1CC21F66895200546C30 /* CATAppContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CATAppContext.mm; sourceTree = "<group>"; };
+		258361C61FAB14760006AA30 /* KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMNavigationBarTransition.h; sourceTree = "<group>"; };
+		258361C71FAB14760006AA30 /* KMSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSwizzle.h; sourceTree = "<group>"; };
+		258361C81FAB14760006AA30 /* KMSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSwizzle.m; sourceTree = "<group>"; };
+		258361C91FAB14760006AA30 /* KMWeakObjectContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMWeakObjectContainer.h; sourceTree = "<group>"; };
+		258361CA1FAB14760006AA30 /* KMWeakObjectContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMWeakObjectContainer.m; sourceTree = "<group>"; };
+		258361CB1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		258361CC1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		258361CD1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		258361CE1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		258361CF1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
+		258361D01FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		258361D11FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		258361D21FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
+		258361D31FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		258361D41FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		258361D51FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
+		258361D61FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		258361D71FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		258361D81FAB14760006AA30 /* UIViewController+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
+		2585730A1F9482AD009DD1FB /* CATBillPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATBillPresenter.h; sourceTree = "<group>"; };
+		2585730B1F9482AD009DD1FB /* CATBillPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATBillPresenter.m; sourceTree = "<group>"; };
+		258615291F9D7FA400337345 /* CATFundAccCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATFundAccCell.h; sourceTree = "<group>"; };
+		2586152A1F9D7FA400337345 /* CATFundAccCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATFundAccCell.m; sourceTree = "<group>"; };
+		258AF13C1F7CA6490057FC31 /* CATCategoryDataSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATCategoryDataSet.h; sourceTree = "<group>"; };
+		258AF13D1F7CA6490057FC31 /* CATCategoryDataSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATCategoryDataSet.m; sourceTree = "<group>"; };
+		2593AFAD1F8DAE5800BB9B2E /* CATCategoryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATCategoryDetailViewController.h; sourceTree = "<group>"; };
+		2593AFAE1F8DAE5800BB9B2E /* CATCategoryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATCategoryDetailViewController.m; sourceTree = "<group>"; };
+		25996A511F70A6DF009614CE /* CATMonthDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATMonthDataView.h; sourceTree = "<group>"; };
+		25996A521F70A6DF009614CE /* CATMonthDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATMonthDataView.m; sourceTree = "<group>"; };
+		259C63241F78D41800A8F695 /* AdhocExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AdhocExportOptions.plist; sourceTree = SOURCE_ROOT; };
+		25A021961FA2FB3A001174F1 /* CATUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATUtil.h; sourceTree = "<group>"; };
+		25A021971FA2FB3A001174F1 /* CATUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATUtil.m; sourceTree = "<group>"; };
+		25A84E9C1FA8172C00F80E96 /* CATTimeCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATTimeCenter.h; sourceTree = "<group>"; };
+		25A84E9D1FA8172C00F80E96 /* CATTimeCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATTimeCenter.m; sourceTree = "<group>"; };
+		25AA5E4A1F7E159D007106AD /* CATStaticTableCellData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATStaticTableCellData.h; sourceTree = "<group>"; };
+		25AA5E4B1F7E159D007106AD /* CATStaticTableCellData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATStaticTableCellData.m; sourceTree = "<group>"; };
+		25AA5E4D1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CATStaticDataBinding.h"; sourceTree = "<group>"; };
+		25AA5E4E1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CATStaticDataBinding.m"; sourceTree = "<group>"; };
+		25AA5E501F7E1E7E007106AD /* CATStaticTableSectionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATStaticTableSectionData.h; sourceTree = "<group>"; };
+		25AA5E511F7E1E7E007106AD /* CATStaticTableSectionData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATStaticTableSectionData.m; sourceTree = "<group>"; };
+		25B71CD91F983C110013235D /* CATThemeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATThemeProtocol.h; sourceTree = "<group>"; };
+		25B71CDC1F9844200013235D /* CATThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATThemeManager.h; sourceTree = "<group>"; };
+		25B71CDD1F9844200013235D /* CATThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATThemeManager.m; sourceTree = "<group>"; };
+		25B71CDF1F9845020013235D /* CATDefaultTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATDefaultTheme.h; sourceTree = "<group>"; };
+		25B71CE01F9845020013235D /* CATDefaultTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATDefaultTheme.m; sourceTree = "<group>"; };
+		25B85DB21F998310008259A5 /* CATAccountHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATAccountHeaderView.h; sourceTree = "<group>"; };
+		25B85DB31F998310008259A5 /* CATAccountHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATAccountHeaderView.m; sourceTree = "<group>"; };
+		25BA57361F943D2C007C7332 /* CATWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATWalletViewController.h; sourceTree = "<group>"; };
+		25BA57371F943D2C007C7332 /* CATWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATWalletViewController.m; sourceTree = "<group>"; };
+		25BA57391F944847007C7332 /* CATTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATTabBarItem.h; sourceTree = "<group>"; };
+		25BA573A1F944847007C7332 /* CATTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATTabBarItem.m; sourceTree = "<group>"; };
+		25BA7BAF1F68BB1300BADCD7 /* CATCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCategory.h; sourceTree = "<group>"; };
+		25BA7BB01F68BB1300BADCD7 /* CATCategory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CATCategory.mm; sourceTree = "<group>"; };
+		25BA7BB51F68C1EB00BADCD7 /* CATCategory+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATCategory+WCTTableCoding.h"; sourceTree = "<group>"; };
+		25BC49DB1F6A4ED300B71B9A /* CATDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATDatePickerView.h; sourceTree = "<group>"; };
+		25BC49DC1F6A4ED300B71B9A /* CATDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATDatePickerView.m; sourceTree = "<group>"; };
+		25BFB97A1F7F857B00692772 /* CATMoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATMoreViewController.m; sourceTree = "<group>"; };
+		25BFB97B1F7F857B00692772 /* CATMoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATMoreViewController.h; sourceTree = "<group>"; };
+		25BFB97D1F7F85B700692772 /* CATAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATAboutViewController.h; sourceTree = "<group>"; };
+		25BFB97E1F7F85B700692772 /* CATAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATAboutViewController.m; sourceTree = "<group>"; };
+		25BFB97F1F7F85B700692772 /* CATAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATAboutViewController.xib; sourceTree = "<group>"; };
+		25C7FC6C1F678D8200E9D6AE /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		25C7FC711F67ADA500E9D6AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25C7FC741F67B4A700E9D6AE /* CATAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATAccount.h; sourceTree = "<group>"; };
+		25C7FC751F67B4A700E9D6AE /* CATAccount.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CATAccount.mm; sourceTree = "<group>"; };
+		25C7FC7A1F67BEB900E9D6AE /* CATDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATDBManager.h; sourceTree = "<group>"; };
+		25C7FC7B1F67BEB900E9D6AE /* CATDBManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CATDBManager.mm; sourceTree = "<group>"; };
+		25C7FC7D1F67C73F00E9D6AE /* CATCategoryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATCategoryService.h; sourceTree = "<group>"; };
+		25C7FC7E1F67C73F00E9D6AE /* CATCategoryService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CATCategoryService.mm; sourceTree = "<group>"; };
+		25C7FC801F67C75500E9D6AE /* CATAccountService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATAccountService.h; sourceTree = "<group>"; };
+		25C7FC811F67C75500E9D6AE /* CATAccountService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CATAccountService.mm; sourceTree = "<group>"; };
+		25C7FC841F67D7C700E9D6AE /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+		25C824521F68CF040072493F /* CATAddBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATAddBillViewController.h; sourceTree = "<group>"; };
+		25C824531F68CF040072493F /* CATAddBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATAddBillViewController.m; sourceTree = "<group>"; };
+		25D227FB1F6B79E2002FDCC7 /* CATWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATWebViewController.h; sourceTree = "<group>"; };
+		25D227FC1F6B79E2002FDCC7 /* CATWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATWebViewController.m; sourceTree = "<group>"; };
+		25E47FF61F8C9EB600365991 /* Library.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Library.html; sourceTree = "<group>"; };
+		4DA18B682BCD4214D56F7E3C /* Pods_CatAccounting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatAccounting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6265D4DBA0F28EB7119BC0EB /* Pods-CatAccounting.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAccounting.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting.adhoc.xcconfig"; sourceTree = "<group>"; };
+		D13393DEF40B37BD3F055350 /* Pods-CatAccounting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAccounting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257E1C171F66782500546C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D078CAACDCD54A266AC8786A /* Pods_CatAccounting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2038E7F2B0AA3A1A5783EBFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DA18B682BCD4214D56F7E3C /* Pods_CatAccounting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250FC6AF1F95A995006B3D9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				251ED98D1F690C2F0038F75C /* CATCategoryIconView.h */,
+				251ED98E1F690C2F0038F75C /* CATCategoryIconView.m */,
+				251ED9921F691D7F0038F75C /* CATKeyboardView.h */,
+				251ED9931F691D7F0038F75C /* CATKeyboardView.m */,
+				2530A69B1F6943CB004951BB /* CATInfoView.h */,
+				2530A69C1F6943CB004951BB /* CATInfoView.m */,
+				25BC49DB1F6A4ED300B71B9A /* CATDatePickerView.h */,
+				25BC49DC1F6A4ED300B71B9A /* CATDatePickerView.m */,
+				253157CA1FA848F700C6C8DB /* CATSegmentControl.h */,
+				253157CB1FA848F700C6C8DB /* CATSegmentControl.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2513A5091F7C94B900062BA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25244BC81F7CDB7200C4E202 /* CATDateBrowserBar.h */,
+				25244BC91F7CDB7200C4E202 /* CATDateBrowserBar.m */,
+				25244BCB1F7CE6FC00C4E202 /* CATReportPieChartCell.h */,
+				25244BCC1F7CE6FC00C4E202 /* CATReportPieChartCell.m */,
+				256D87D41F7DD30900A35D69 /* CATReportFooterView.h */,
+				256D87D51F7DD30900A35D69 /* CATReportFooterView.m */,
+				2527EDFA1F8EFF5100B7F900 /* CATCategoryHeaderView.h */,
+				2527EDFB1F8EFF5100B7F900 /* CATCategoryHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251ED9911F691C380038F75C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				251ED98A1F6900610038F75C /* CATCategoryListCell.h */,
+				251ED98B1F6900610038F75C /* CATCategoryListCell.m */,
+				25996A511F70A6DF009614CE /* CATMonthDataView.h */,
+				25996A521F70A6DF009614CE /* CATMonthDataView.m */,
+				2551A7371F725DA200EB99E5 /* CATFeedDayView.h */,
+				2551A7381F725DA200EB99E5 /* CATFeedDayView.m */,
+				2551A73D1F725DEE00EB99E5 /* CATFeedAccountCell.h */,
+				2551A73E1F725DEE00EB99E5 /* CATFeedAccountCell.m */,
+				25717BE61F7369C90096237C /* CATBillListEmptyView.h */,
+				25717BE71F7369C90096237C /* CATBillListEmptyView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2523C1081F676B98005AED1D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				25D227FB1F6B79E2002FDCC7 /* CATWebViewController.h */,
+				25D227FC1F6B79E2002FDCC7 /* CATWebViewController.m */,
+				2523C1091F676C02005AED1D /* CATBaseViewController.h */,
+				2523C10A1F676C02005AED1D /* CATBaseViewController.m */,
+				2523C10C1F676C1D005AED1D /* CATNaviController.h */,
+				2523C10D1F676C1D005AED1D /* CATNaviController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		257E1C111F66782500546C30 = {
+			isa = PBXGroup;
+			children = (
+				257E1C1C1F66782500546C30 /* CatAccounting */,
+				257E1C1B1F66782500546C30 /* Products */,
+				40FFA328C210E67D36E4CC9C /* Pods */,
+				2038E7F2B0AA3A1A5783EBFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		257E1C1B1F66782500546C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257E1C1A1F66782500546C30 /* CatAccounting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257E1C1C1F66782500546C30 /* CatAccounting */ = {
+			isa = PBXGroup;
+			children = (
+				257E1C461F66848F00546C30 /* AppDelegate */,
+				257E1C421F66848A00546C30 /* MainTab */,
+				257E1C3E1F66848A00546C30 /* Bill */,
+				25BA57351F943CCA007C7332 /* Wallet */,
+				258573091F94826E009DD1FB /* AddBill */,
+				257E1C441F66848A00546C30 /* Report */,
+				257E1C431F66848A00546C30 /* More */,
+				257E1C471F6684EE00546C30 /* AppKit */,
+				257E1C401F66848A00546C30 /* Database */,
+				257E1C451F66848A00546C30 /* Service */,
+				25C7FC731F67B2F600E9D6AE /* Model */,
+				257E1C411F66848A00546C30 /* Lib */,
+				257E1C3F1F66848A00546C30 /* Common */,
+				25C7FC831F67D1E000E9D6AE /* Resource */,
+				257E1C1D1F66782500546C30 /* Supporting Files */,
+			);
+			path = CatAccounting;
+			sourceTree = "<group>";
+		};
+		257E1C1D1F66782500546C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256D83E31FAC0EBF00E847F7 /* CatAccounting.entitlements */,
+				252D750F1F74E9B30026CCC4 /* launch_page_icon@2x.png */,
+				252D75101F74E9B30026CCC4 /* launch_page_icon@3x.png */,
+				252D75111F74E9B30026CCC4 /* launch_page_name@2x.png */,
+				252D75121F74E9B30026CCC4 /* launch_page_name@3x.png */,
+				257E1C2E1F66782500546C30 /* Info.plist */,
+				257E1C3C1F66840200546C30 /* Podfile */,
+				257E1C1E1F66782500546C30 /* main.m */,
+				25C7FC711F67ADA500E9D6AE /* LaunchScreen.storyboard */,
+				259C63241F78D41800A8F695 /* AdhocExportOptions.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		257E1C3E1F66848A00546C30 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				2523C10F1F676EC6005AED1D /* CATBillViewController.h */,
+				2523C1101F676EC6005AED1D /* CATBillViewController.m */,
+				251ED9911F691C380038F75C /* View */,
+			);
+			path = Bill;
+			sourceTree = "<group>";
+		};
+		257E1C3F1F66848A00546C30 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				257E1C481F66850B00546C30 /* PrefixHeader.pch */,
+				25C7FC6C1F678D8200E9D6AE /* Macro.h */,
+				25717BE51F735E850096237C /* Notifications.h */,
+				25A021961FA2FB3A001174F1 /* CATUtil.h */,
+				25A021971FA2FB3A001174F1 /* CATUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		257E1C401F66848A00546C30 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				25C7FC7A1F67BEB900E9D6AE /* CATDBManager.h */,
+				25C7FC7B1F67BEB900E9D6AE /* CATDBManager.mm */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		257E1C411F66848A00546C30 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				258361C41FAB14760006AA30 /* KMNavigationBarTransition */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		257E1C421F66848A00546C30 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				257E1CBB1F6688C300546C30 /* CATTabViewController.h */,
+				257E1CBC1F6688C300546C30 /* CATTabViewController.m */,
+				25BA57391F944847007C7332 /* CATTabBarItem.h */,
+				25BA573A1F944847007C7332 /* CATTabBarItem.m */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		257E1C431F66848A00546C30 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				25BFB97B1F7F857B00692772 /* CATMoreViewController.h */,
+				25BFB97A1F7F857B00692772 /* CATMoreViewController.m */,
+				256F2CB61FA955E300ECF8F9 /* CATThemeViewController.h */,
+				256F2CB71FA955E300ECF8F9 /* CATThemeViewController.m */,
+				25BFB97D1F7F85B700692772 /* CATAboutViewController.h */,
+				25BFB97E1F7F85B700692772 /* CATAboutViewController.m */,
+				25BFB97F1F7F85B700692772 /* CATAboutViewController.xib */,
+				25AA5E491F7E1487007106AD /* Model */,
+				25AA5E481F7E1479007106AD /* View */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		257E1C441F66848A00546C30 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				2523C1121F676ED8005AED1D /* CATReportViewController.h */,
+				2523C1131F676ED8005AED1D /* CATReportViewController.m */,
+				2593AFAD1F8DAE5800BB9B2E /* CATCategoryDetailViewController.h */,
+				2593AFAE1F8DAE5800BB9B2E /* CATCategoryDetailViewController.m */,
+				2513A5091F7C94B900062BA9 /* View */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		257E1C451F66848A00546C30 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				25C7FC7D1F67C73F00E9D6AE /* CATCategoryService.h */,
+				25C7FC7E1F67C73F00E9D6AE /* CATCategoryService.mm */,
+				25C7FC801F67C75500E9D6AE /* CATAccountService.h */,
+				25C7FC811F67C75500E9D6AE /* CATAccountService.mm */,
+				250FC6B01F95CB4D006B3D9A /* CATFundAccService.h */,
+				250FC6B11F95CB4D006B3D9A /* CATFundAccService.mm */,
+				252475CB1F9DBB23002D2098 /* CATBudgetService.h */,
+				252475CC1F9DBB23002D2098 /* CATBudgetService.mm */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		257E1C461F66848F00546C30 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				257E1C201F66782500546C30 /* AppDelegate.h */,
+				257E1C211F66782500546C30 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		257E1C471F6684EE00546C30 /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				257E1CC11F66895200546C30 /* CATAppContext.h */,
+				257E1CC21F66895200546C30 /* CATAppContext.mm */,
+				25B71CD31F9838A70013235D /* Theme */,
+				25A84E9B1FA8170B00F80E96 /* Time */,
+				2523C1081F676B98005AED1D /* UI */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
+		};
+		258361C41FAB14760006AA30 /* KMNavigationBarTransition */ = {
+			isa = PBXGroup;
+			children = (
+				258361C61FAB14760006AA30 /* KMNavigationBarTransition.h */,
+				258361C71FAB14760006AA30 /* KMSwizzle.h */,
+				258361C81FAB14760006AA30 /* KMSwizzle.m */,
+				258361C91FAB14760006AA30 /* KMWeakObjectContainer.h */,
+				258361CA1FAB14760006AA30 /* KMWeakObjectContainer.m */,
+				258361CB1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.h */,
+				258361CC1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.m */,
+				258361CD1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.h */,
+				258361CE1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.m */,
+				258361CF1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition_internal.h */,
+				258361D01FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.h */,
+				258361D11FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.m */,
+				258361D21FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition_internal.h */,
+				258361D31FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.h */,
+				258361D41FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.m */,
+				258361D51FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition_internal.h */,
+				258361D61FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.h */,
+				258361D71FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.m */,
+				258361D81FAB14760006AA30 /* UIViewController+KMNavigationBarTransition_internal.h */,
+			);
+			path = KMNavigationBarTransition;
+			sourceTree = "<group>";
+		};
+		258573091F94826E009DD1FB /* AddBill */ = {
+			isa = PBXGroup;
+			children = (
+				2585730A1F9482AD009DD1FB /* CATBillPresenter.h */,
+				2585730B1F9482AD009DD1FB /* CATBillPresenter.m */,
+				25C824521F68CF040072493F /* CATAddBillViewController.h */,
+				25C824531F68CF040072493F /* CATAddBillViewController.m */,
+				250FC6AF1F95A995006B3D9A /* View */,
+			);
+			path = AddBill;
+			sourceTree = "<group>";
+		};
+		25A84E9B1FA8170B00F80E96 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				25A84E9C1FA8172C00F80E96 /* CATTimeCenter.h */,
+				25A84E9D1FA8172C00F80E96 /* CATTimeCenter.m */,
+			);
+			name = Time;
+			sourceTree = "<group>";
+		};
+		25AA5E481F7E1479007106AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25AA5E4D1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.h */,
+				25AA5E4E1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.m */,
+				256F2CBF1FA964C600ECF8F9 /* CATThemeCell.h */,
+				256F2CC01FA964C600ECF8F9 /* CATThemeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25AA5E491F7E1487007106AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25AA5E501F7E1E7E007106AD /* CATStaticTableSectionData.h */,
+				25AA5E511F7E1E7E007106AD /* CATStaticTableSectionData.m */,
+				25AA5E4A1F7E159D007106AD /* CATStaticTableCellData.h */,
+				25AA5E4B1F7E159D007106AD /* CATStaticTableCellData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25B71CD31F9838A70013235D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				25B71CD91F983C110013235D /* CATThemeProtocol.h */,
+				25B71CDC1F9844200013235D /* CATThemeManager.h */,
+				25B71CDD1F9844200013235D /* CATThemeManager.m */,
+				25B71CDF1F9845020013235D /* CATDefaultTheme.h */,
+				25B71CE01F9845020013235D /* CATDefaultTheme.m */,
+				256F2CB91FA95A0000ECF8F9 /* CATGreenTheme.h */,
+				256F2CBA1FA95A0000ECF8F9 /* CATGreenTheme.m */,
+				256F2CBC1FA95E9200ECF8F9 /* CATBlueTheme.h */,
+				256F2CBD1FA95E9200ECF8F9 /* CATBlueTheme.m */,
+				257E1CBE1F66892C00546C30 /* QMUIConfigurationTemplate.h */,
+				257E1CBF1F66892C00546C30 /* QMUIConfigurationTemplate.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		25B85DB11F9982D8008259A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25B85DB21F998310008259A5 /* CATAccountHeaderView.h */,
+				25B85DB31F998310008259A5 /* CATAccountHeaderView.m */,
+				258615291F9D7FA400337345 /* CATFundAccCell.h */,
+				2586152A1F9D7FA400337345 /* CATFundAccCell.m */,
+				252475D21F9ED160002D2098 /* CATBudgetTitleView.h */,
+				252475D31F9ED160002D2098 /* CATBudgetTitleView.m */,
+				252475D51F9ED570002D2098 /* CATBudgetHeaderView.h */,
+				252475D61F9ED570002D2098 /* CATBudgetHeaderView.m */,
+				252475D81FA170A9002D2098 /* CATMonthBudgetCell.h */,
+				252475D91FA170A9002D2098 /* CATMonthBudgetCell.m */,
+				252475DB1FA170C0002D2098 /* CATCateBudgetCell.h */,
+				252475DC1FA170C0002D2098 /* CATCateBudgetCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25BA57351F943CCA007C7332 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				25BA57361F943D2C007C7332 /* CATWalletViewController.h */,
+				25BA57371F943D2C007C7332 /* CATWalletViewController.m */,
+				25B85DB11F9982D8008259A5 /* View */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		25C7FC731F67B2F600E9D6AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				252475CE1F9DBB33002D2098 /* CATBudget.h */,
+				252475CF1F9DBB33002D2098 /* CATBudget.mm */,
+				252475D11F9DBDBB002D2098 /* CATBudget+WCTTableCoding.h */,
+				2527EDFE1F8F3D5300B7F900 /* CATFundAccount.h */,
+				2527EDFF1F8F3D5300B7F900 /* CATFundAccount.mm */,
+				250FC6B51F95D262006B3D9A /* CATFundAccount+WCTTableCoding.h */,
+				2551A7341F724B2A00EB99E5 /* CATBillFeed.h */,
+				2551A7351F724B2A00EB99E5 /* CATBillFeed.m */,
+				25C7FC741F67B4A700E9D6AE /* CATAccount.h */,
+				25C7FC751F67B4A700E9D6AE /* CATAccount.mm */,
+				251ED9901F6916BC0038F75C /* CATAccount+WCTTableCoding.h */,
+				25BA7BAF1F68BB1300BADCD7 /* CATCategory.h */,
+				25BA7BB01F68BB1300BADCD7 /* CATCategory.mm */,
+				25BA7BB51F68C1EB00BADCD7 /* CATCategory+WCTTableCoding.h */,
+				258AF13C1F7CA6490057FC31 /* CATCategoryDataSet.h */,
+				258AF13D1F7CA6490057FC31 /* CATCategoryDataSet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25C7FC831F67D1E000E9D6AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				257E1C291F66782500546C30 /* Assets.xcassets */,
+				25E47FF61F8C9EB600365991 /* Library.html */,
+				25C7FC841F67D7C700E9D6AE /* Categories.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		40FFA328C210E67D36E4CC9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D13393DEF40B37BD3F055350 /* Pods-CatAccounting.debug.xcconfig */,
+				0490FD21D61740859B5500F7 /* Pods-CatAccounting.release.xcconfig */,
+				6265D4DBA0F28EB7119BC0EB /* Pods-CatAccounting.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257E1C191F66782500546C30 /* CatAccounting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257E1C311F66782500546C30 /* Build configuration list for PBXNativeTarget "CatAccounting" */;
+			buildPhases = (
+				850F4673E144ED122114A24D /* [CP] Check Pods Manifest.lock */,
+				257E1C161F66782500546C30 /* Sources */,
+				257E1C171F66782500546C30 /* Frameworks */,
+				257E1C181F66782500546C30 /* Resources */,
+				E176864B7DF0911A7C93149E /* [CP] Embed Pods Frameworks */,
+				D598F91E7102A2393F6A5462 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatAccounting;
+			productName = CatAccounting;
+			productReference = 257E1C1A1F66782500546C30 /* CatAccounting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		257E1C121F66782500546C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ran;
+				TargetAttributes = {
+					257E1C191F66782500546C30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y59S585TRM;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 257E1C151F66782500546C30 /* Build configuration list for PBXProject "CatAccounting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 257E1C111F66782500546C30;
+			productRefGroup = 257E1C1B1F66782500546C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257E1C191F66782500546C30 /* CatAccounting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257E1C181F66782500546C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E47FF71F8C9EC800365991 /* Library.html in Resources */,
+				252D75141F74E9B40026CCC4 /* launch_page_icon@3x.png in Resources */,
+				257E1C2A1F66782500546C30 /* Assets.xcassets in Resources */,
+				252D75131F74E9B40026CCC4 /* launch_page_icon@2x.png in Resources */,
+				257E1C3D1F66840200546C30 /* Podfile in Resources */,
+				252D75161F74E9B40026CCC4 /* launch_page_name@3x.png in Resources */,
+				25BFB9811F7F85B700692772 /* CATAboutViewController.xib in Resources */,
+				259C63251F78D41800A8F695 /* AdhocExportOptions.plist in Resources */,
+				252D75151F74E9B40026CCC4 /* launch_page_name@2x.png in Resources */,
+				25C7FC721F67ADA500E9D6AE /* LaunchScreen.storyboard in Resources */,
+				25C7FC851F67D7C700E9D6AE /* Categories.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		850F4673E144ED122114A24D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatAccounting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D598F91E7102A2393F6A5462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-resources.sh",
+				"${PODS_ROOT}/AlicloudFeedback/feedback/YWFeedbackBundle.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YWFeedbackBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E176864B7DF0911A7C93149E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RHKeyValueStore/RHKeyValueStore.framework",
+				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RHKeyValueStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257E1C161F66782500546C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2593AFAF1F8DAE5800BB9B2E /* CATCategoryDetailViewController.m in Sources */,
+				25244BCD1F7CE6FC00C4E202 /* CATReportPieChartCell.m in Sources */,
+				253157CC1FA848F700C6C8DB /* CATSegmentControl.m in Sources */,
+				25A84E9E1FA8172C00F80E96 /* CATTimeCenter.m in Sources */,
+				25AA5E521F7E1E7E007106AD /* CATStaticTableSectionData.m in Sources */,
+				256F2CB81FA955E300ECF8F9 /* CATThemeViewController.m in Sources */,
+				2523C1141F676ED8005AED1D /* CATReportViewController.m in Sources */,
+				2527EE001F8F3D5300B7F900 /* CATFundAccount.mm in Sources */,
+				252475CD1F9DBB23002D2098 /* CATBudgetService.mm in Sources */,
+				258361E01FAB14760006AA30 /* UIViewController+KMNavigationBarTransition.m in Sources */,
+				252475DD1FA170C0002D2098 /* CATCateBudgetCell.m in Sources */,
+				2585730C1F9482AD009DD1FB /* CATBillPresenter.m in Sources */,
+				2523C10B1F676C02005AED1D /* CATBaseViewController.m in Sources */,
+				25244BCA1F7CDB7200C4E202 /* CATDateBrowserBar.m in Sources */,
+				252475D01F9DBB33002D2098 /* CATBudget.mm in Sources */,
+				25C7FC7C1F67BEB900E9D6AE /* CATDBManager.mm in Sources */,
+				25C7FC821F67C75500E9D6AE /* CATAccountService.mm in Sources */,
+				258361DB1FAB14760006AA30 /* KMWeakObjectContainer.m in Sources */,
+				258361DD1FAB14760006AA30 /* UINavigationBar+KMNavigationBarTransition.m in Sources */,
+				25D227FD1F6B79E2002FDCC7 /* CATWebViewController.m in Sources */,
+				252475D71F9ED570002D2098 /* CATBudgetHeaderView.m in Sources */,
+				257E1CC31F66895200546C30 /* CATAppContext.mm in Sources */,
+				25B71CDE1F9844200013235D /* CATThemeManager.m in Sources */,
+				25A021981FA2FB3A001174F1 /* CATUtil.m in Sources */,
+				25C7FC7F1F67C73F00E9D6AE /* CATCategoryService.mm in Sources */,
+				2523C10E1F676C1D005AED1D /* CATNaviController.m in Sources */,
+				25C7FC761F67B4A700E9D6AE /* CATAccount.mm in Sources */,
+				252475DA1FA170A9002D2098 /* CATMonthBudgetCell.m in Sources */,
+				258361DC1FAB14760006AA30 /* NSObject+KMNavigationBarTransition.m in Sources */,
+				25B71CE11F9845020013235D /* CATDefaultTheme.m in Sources */,
+				256D87D61F7DD30900A35D69 /* CATReportFooterView.m in Sources */,
+				25C824541F68CF040072493F /* CATAddBillViewController.m in Sources */,
+				25BFB9801F7F85B700692772 /* CATAboutViewController.m in Sources */,
+				2551A73F1F725DEE00EB99E5 /* CATFeedAccountCell.m in Sources */,
+				25996A531F70A6DF009614CE /* CATMonthDataView.m in Sources */,
+				25AA5E4F1F7E1B34007106AD /* UITableViewCell+CATStaticDataBinding.m in Sources */,
+				25BFB97C1F7F857C00692772 /* CATMoreViewController.m in Sources */,
+				25BA573B1F944849007C7332 /* CATTabBarItem.m in Sources */,
+				258361DA1FAB14760006AA30 /* KMSwizzle.m in Sources */,
+				2586152B1F9D7FA400337345 /* CATFundAccCell.m in Sources */,
+				257E1C221F66782500546C30 /* AppDelegate.m in Sources */,
+				2527EDFC1F8EFF5100B7F900 /* CATCategoryHeaderView.m in Sources */,
+				251ED98F1F690C2F0038F75C /* CATCategoryIconView.m in Sources */,
+				25BA57381F943D2C007C7332 /* CATWalletViewController.m in Sources */,
+				256F2CC11FA964C600ECF8F9 /* CATThemeCell.m in Sources */,
+				256F2CBB1FA95A0000ECF8F9 /* CATGreenTheme.m in Sources */,
+				2530A69D1F6943CB004951BB /* CATInfoView.m in Sources */,
+				251ED98C1F6900610038F75C /* CATCategoryListCell.m in Sources */,
+				2551A7361F724B2A00EB99E5 /* CATBillFeed.m in Sources */,
+				25BC49DD1F6A4ED300B71B9A /* CATDatePickerView.m in Sources */,
+				25AA5E4C1F7E159D007106AD /* CATStaticTableCellData.m in Sources */,
+				258361DE1FAB14760006AA30 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
+				25BA7BB11F68BB1300BADCD7 /* CATCategory.mm in Sources */,
+				256F2CBE1FA95E9200ECF8F9 /* CATBlueTheme.m in Sources */,
+				25B85DB41F998310008259A5 /* CATAccountHeaderView.m in Sources */,
+				252475D41F9ED160002D2098 /* CATBudgetTitleView.m in Sources */,
+				258AF13E1F7CA6490057FC31 /* CATCategoryDataSet.m in Sources */,
+				2551A7391F725DA200EB99E5 /* CATFeedDayView.m in Sources */,
+				2523C1111F676EC6005AED1D /* CATBillViewController.m in Sources */,
+				257E1C1F1F66782500546C30 /* main.m in Sources */,
+				258361DF1FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.m in Sources */,
+				250FC6B21F95CB4D006B3D9A /* CATFundAccService.mm in Sources */,
+				257E1CC01F66892C00546C30 /* QMUIConfigurationTemplate.m in Sources */,
+				25717BE81F7369C90096237C /* CATBillListEmptyView.m in Sources */,
+				251ED9941F691D7F0038F75C /* CATKeyboardView.m in Sources */,
+				257E1CBD1F6688C300546C30 /* CATTabViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		257E1C2F1F66782500546C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		257E1C301F66782500546C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257E1C321F66782500546C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13393DEF40B37BD3F055350 /* Pods-CatAccounting.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = CatAccounting/CatAccounting.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CatAccounting/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = CatAccounting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ran.cataccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatAccounting/CatAccounting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		257E1C331F66782500546C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0490FD21D61740859B5500F7 /* Pods-CatAccounting.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = CatAccounting/CatAccounting.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CatAccounting/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = CatAccounting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ran.cataccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatAccounting/CatAccounting-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		257E1C351F66788300546C30 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		257E1C361F66788300546C30 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6265D4DBA0F28EB7119BC0EB /* Pods-CatAccounting.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = CatAccounting/CatAccounting.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CatAccounting/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = CatAccounting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ran.cataccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatAccounting/CatAccounting-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257E1C151F66782500546C30 /* Build configuration list for PBXProject "CatAccounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257E1C2F1F66782500546C30 /* Debug */,
+				257E1C301F66782500546C30 /* Release */,
+				257E1C351F66788300546C30 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Adhoc;
+		};
+		257E1C311F66782500546C30 /* Build configuration list for PBXNativeTarget "CatAccounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257E1C321F66782500546C30 /* Debug */,
+				257E1C331F66782500546C30 /* Release */,
+				257E1C361F66788300546C30 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Adhoc;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 257E1C121F66782500546C30 /* Project object */;
+}
