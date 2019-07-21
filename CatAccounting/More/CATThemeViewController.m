@@ -13,7 +13,7 @@
 @interface CATThemeViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *themeTable;
-@property (nonatomic, strong) CATThemeCell *checkedCell;
+@property (nonatomic, weak) CATThemeCell *checkedCell;
 @property (nonatomic, strong) NSArray *themeList;
 
 @end

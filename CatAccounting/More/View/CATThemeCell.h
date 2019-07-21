@@ -9,7 +9,7 @@
 #import <QMUIKit/QMUIKit.h>
 #import "CATThemeProtocol.h"
 
-#define kThemeCellHeight 370
+#define kThemeCellHeight 385
 
 @interface CATThemeCell : QMUITableViewCell
 

@@ -11,6 +11,8 @@
 #import "QMUIConfigurationTemplate.h"
 #import "CATGreenTheme.h"
 #import "CATBlueTheme.h"
+#import "CATRedTheme.h"
+#import "CATPurpleTheme.h"
 
 @implementation CATThemeManager
 
@@ -29,7 +31,9 @@
         CATDefaultTheme *defaultTheme = [[CATDefaultTheme alloc] init];
         CATGreenTheme *greenTheme = [[CATGreenTheme alloc] init];
         CATBlueTheme *blueTheme = [[CATBlueTheme alloc] init];
-        _themeList = @[defaultTheme, greenTheme, blueTheme];
+        CATRedTheme *redTheme = [[CATRedTheme alloc] init];
+        CATPurpleTheme *purpleTheme = [[CATPurpleTheme alloc] init];
+        _themeList = @[defaultTheme, greenTheme, blueTheme, redTheme, purpleTheme];
     }
     return self;
 }

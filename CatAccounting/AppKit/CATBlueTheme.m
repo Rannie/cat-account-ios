@@ -11,11 +11,11 @@
 @implementation CATBlueTheme
 
 - (NSString *)themeName {
-    return @"天海蓝";
+    return @"蓝喵";
 }
 
 - (NSString *)themeColor {
-    return @"#03a9f4";
+    return @"#33539E";
 }
 
 - (NSString *)backgroundColor {
@@ -27,11 +27,11 @@
 }
 
 - (NSString *)themeColor_lighten5 {
-    return @"#e1f5fe";
+    return @"#3C62BB";
 }
 
 - (NSString *)themeColor_darken2 {
-    return @"#0288d1";
+    return @"#26407D";
 }
 
 - (NSString *)assetSuffix {
@@ -39,7 +39,7 @@
 }
 
 - (NSArray *)themeScreenShots {
-    return @[@"bill_blue", @"addbill_blue", @"wallet_blue"];
+    return @[@"blue_home", @"blue_more"];
 }
 
 @end

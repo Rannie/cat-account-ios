@@ -10,9 +10,10 @@
 #import <BEMCheckBox/BEMCheckBox.h>
 
 #define kInset 15
-#define kScreenShotWidth 160
-#define kScreenShotHeight 284
-#define kShotCount 3
+#define kSpace 35
+#define kScreenShotWidth 150
+#define kScreenShotHeight 300
+#define kShotCount 2
 
 @interface CATThemeCell ()
 @property (nonatomic, strong) UIView *colorView;
@@ -51,10 +52,10 @@
     CGFloat right = 0.0;
     NSMutableArray *imageViewContent = [NSMutableArray arrayWithCapacity:kShotCount];
     for (int i = 0; i < kShotCount; i++) {
-        UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(i*kScreenShotWidth+(i+1)*kInset, 0, kScreenShotWidth, kScreenShotHeight)];
+        UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(kInset +i*kScreenShotWidth+i*kSpace, 0, kScreenShotWidth, kScreenShotHeight)];
         [self.imageContent addSubview:imgView];
         [imageViewContent addObject:imgView];
-        right = imgView.right+kInset;
+        right = imgView.right+kSpace;
     }
     self.imageViewList = [imageViewContent copy];
     self.imageContent.contentSize = CGSizeMake(right, 0.0);
@@ -68,8 +69,10 @@
     self.colorView.backgroundColor = themeColor;
     
     [self.imageViewList enumerateObjectsUsingBlock:^(UIImageView * _Nonnull imageView, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSString *imgName = [theme themeScreenShots][idx];
-        imageView.image = UIImageMake(imgName);
+        if (theme.themeScreenShots.count) {
+            NSString *imgName = [theme themeScreenShots][idx];
+            imageView.image = UIImageMake(imgName);
+        }
     }];
 }
 

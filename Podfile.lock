@@ -265,7 +265,7 @@ SPEC REPOS:
     - AlicloudUT
     - AlicloudUTDID
     - AlicloudUtils
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - BEMCheckBox
     - Charts
     - CocoaLumberjack
@@ -287,10 +287,10 @@ SPEC REPOS:
     - YYModel
 
 SPEC CHECKSUMS:
-  AlicloudFeedback: 0887b49a73d6fc172f4a986cae1f92ae4100341e
-  AlicloudUT: 9f20dcfd2753de09261b6c279245da1650a34932
-  AlicloudUTDID: f5a7bc1420c5f83e3bd40296e5ab2e5a804a12f8
-  AlicloudUtils: 2437ae7fd2b39343539e8f48aa1f7bf6f5a6cff1
+  AlicloudFeedback: 5e76297909217a26b75d64f628c4dc887c3d525a
+  AlicloudUT: 22ffa6acef01c409e91f2c403da0f58651781533
+  AlicloudUTDID: 7640837a1f6dd3529be33f8c77b7818cd88129f9
+  AlicloudUtils: 6e75332b8954a7fd48c2de3711a7c71fada3520b
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   Charts: 0705898046257443f0afbbc3179f4b67507b6e48
   CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
@@ -313,4 +313,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 4e2db57eb0b862924d654e6e13aa28216550ac1c
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.1

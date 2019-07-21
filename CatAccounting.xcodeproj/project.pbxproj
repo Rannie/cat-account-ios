@@ -84,6 +84,8 @@
 		25C824541F68CF040072493F /* CATAddBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C824531F68CF040072493F /* CATAddBillViewController.m */; };
 		25D227FD1F6B79E2002FDCC7 /* CATWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D227FC1F6B79E2002FDCC7 /* CATWebViewController.m */; };
 		25E47FF71F8C9EC800365991 /* Library.html in Resources */ = {isa = PBXBuildFile; fileRef = 25E47FF61F8C9EB600365991 /* Library.html */; };
+		A3CBAE5D22E4A835005AA2AA /* CATRedTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CBAE5C22E4A835005AA2AA /* CATRedTheme.m */; };
+		A3CBAE6022E4A877005AA2AA /* CATPurpleTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CBAE5F22E4A877005AA2AA /* CATPurpleTheme.m */; };
 		D078CAACDCD54A266AC8786A /* Pods_CatAccounting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA18B682BCD4214D56F7E3C /* Pods_CatAccounting.framework */; };
 /* End PBXBuildFile section */
 
@@ -249,6 +251,10 @@
 		25E47FF61F8C9EB600365991 /* Library.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Library.html; sourceTree = "<group>"; };
 		4DA18B682BCD4214D56F7E3C /* Pods_CatAccounting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatAccounting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6265D4DBA0F28EB7119BC0EB /* Pods-CatAccounting.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAccounting.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting.adhoc.xcconfig"; sourceTree = "<group>"; };
+		A3CBAE5B22E4A835005AA2AA /* CATRedTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATRedTheme.h; sourceTree = "<group>"; };
+		A3CBAE5C22E4A835005AA2AA /* CATRedTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATRedTheme.m; sourceTree = "<group>"; };
+		A3CBAE5E22E4A877005AA2AA /* CATPurpleTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATPurpleTheme.h; sourceTree = "<group>"; };
+		A3CBAE5F22E4A877005AA2AA /* CATPurpleTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATPurpleTheme.m; sourceTree = "<group>"; };
 		D13393DEF40B37BD3F055350 /* Pods-CatAccounting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAccounting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -586,6 +592,10 @@
 				256F2CBA1FA95A0000ECF8F9 /* CATGreenTheme.m */,
 				256F2CBC1FA95E9200ECF8F9 /* CATBlueTheme.h */,
 				256F2CBD1FA95E9200ECF8F9 /* CATBlueTheme.m */,
+				A3CBAE5B22E4A835005AA2AA /* CATRedTheme.h */,
+				A3CBAE5C22E4A835005AA2AA /* CATRedTheme.m */,
+				A3CBAE5E22E4A877005AA2AA /* CATPurpleTheme.h */,
+				A3CBAE5F22E4A877005AA2AA /* CATPurpleTheme.m */,
 				257E1CBE1F66892C00546C30 /* QMUIConfigurationTemplate.h */,
 				257E1CBF1F66892C00546C30 /* QMUIConfigurationTemplate.m */,
 			);
@@ -700,7 +710,7 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Y59S585TRM;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -777,7 +787,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-resources.sh",
 				"${PODS_ROOT}/AlicloudFeedback/feedback/YWFeedbackBundle.bundle",
 				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
 				"${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
@@ -792,7 +802,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E176864B7DF0911A7C93149E /* [CP] Embed Pods Frameworks */ = {
@@ -801,7 +811,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
@@ -836,7 +846,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatAccounting/Pods-CatAccounting-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -890,6 +900,7 @@
 				2527EDFC1F8EFF5100B7F900 /* CATCategoryHeaderView.m in Sources */,
 				251ED98F1F690C2F0038F75C /* CATCategoryIconView.m in Sources */,
 				25BA57381F943D2C007C7332 /* CATWalletViewController.m in Sources */,
+				A3CBAE5D22E4A835005AA2AA /* CATRedTheme.m in Sources */,
 				256F2CC11FA964C600ECF8F9 /* CATThemeCell.m in Sources */,
 				256F2CBB1FA95A0000ECF8F9 /* CATGreenTheme.m in Sources */,
 				2530A69D1F6943CB004951BB /* CATInfoView.m in Sources */,
@@ -907,6 +918,7 @@
 				2523C1111F676EC6005AED1D /* CATBillViewController.m in Sources */,
 				257E1C1F1F66782500546C30 /* main.m in Sources */,
 				258361DF1FAB14760006AA30 /* UIScrollView+KMNavigationBarTransition.m in Sources */,
+				A3CBAE6022E4A877005AA2AA /* CATPurpleTheme.m in Sources */,
 				250FC6B21F95CB4D006B3D9A /* CATFundAccService.mm in Sources */,
 				257E1CC01F66892C00546C30 /* QMUIConfigurationTemplate.m in Sources */,
 				25717BE81F7369C90096237C /* CATBillListEmptyView.m in Sources */,
@@ -1029,9 +1041,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = CatAccounting/CatAccounting.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hanran Liu (EPPV9JQ42Z)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y59S585TRM;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CatAccounting/Common/PrefixHeader.pch;
@@ -1041,7 +1053,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ran.cataccount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = cat_dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "CatAccounting/CatAccounting-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1057,10 +1069,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = CatAccounting/CatAccounting.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Hanran Liu (Y59S585TRM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Hanran Liu (Y59S585TRM)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y59S585TRM;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CatAccounting/Common/PrefixHeader.pch;
@@ -1070,87 +1082,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ran.cataccount;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "cat-account-release";
 				SWIFT_OBJC_BRIDGING_HEADER = "CatAccounting/CatAccounting-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
-		};
-		257E1C351F66788300546C30 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		257E1C361F66788300546C30 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6265D4DBA0F28EB7119BC0EB /* Pods-CatAccounting.adhoc.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = CatAccounting/CatAccounting.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CatAccounting/Common/PrefixHeader.pch;
-				INFOPLIST_FILE = CatAccounting/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ran.cataccount;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "CatAccounting/CatAccounting-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Adhoc;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1160,20 +1096,18 @@
 			buildConfigurations = (
 				257E1C2F1F66782500546C30 /* Debug */,
 				257E1C301F66782500546C30 /* Release */,
-				257E1C351F66788300546C30 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Adhoc;
+			defaultConfigurationName = Debug;
 		};
 		257E1C311F66782500546C30 /* Build configuration list for PBXNativeTarget "CatAccounting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				257E1C321F66782500546C30 /* Debug */,
 				257E1C331F66782500546C30 /* Release */,
-				257E1C361F66788300546C30 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Adhoc;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

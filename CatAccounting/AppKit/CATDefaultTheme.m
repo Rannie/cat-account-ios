@@ -11,7 +11,7 @@
 @implementation CATDefaultTheme
 
 - (NSString *)themeName {
-    return @"默认主题";
+    return @"橙喵";
 }
 
 - (NSString *)themeColor {
@@ -39,7 +39,7 @@
 }
 
 - (NSArray *)themeScreenShots {
-    return @[@"bill_default", @"addbill_default", @"wallet_default"];
+    return @[@"default_home", @"default_more"];
 }
 
 @end
