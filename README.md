@@ -4,7 +4,7 @@
 
 [<img src="https://cloud.githubusercontent.com/assets/219689/5575342/963e0ee8-9013-11e4-8091-7ece67d64729.png" width="120" alt="AppStore"/>](itms-apps://itunes.apple.com/app/id1308678908)
 
-<img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.25.41%20AM.png?token=ABD6H6H3WWSJPKZSUWP5SG25IJD3I" width="25%"><img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.13%20AM.png?token=ABD6H6GMLPMHQA4YQXXF62C5IJD66" width="25%"><img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.26%20AM.png?token=ABD6H6AX54D4YMEKXP64DPS5IJEFE" width="25%"><img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.35%20AM.png?token=ABD6H6ESOXS3I52HINDQKEC5IJEGG" width="25%"> 
+<img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.25.41%20AM.png" width="25%"><img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.13%20AM.png" width="25%"><img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.26%20AM.png" width="25%"><img src="https://raw.githubusercontent.com/Rannie/cat-account-ios/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.35%20AM.png" width="25%"> 
 
 只是一款本地记账工具，不支持同步功能。
 
