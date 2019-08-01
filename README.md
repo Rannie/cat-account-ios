@@ -14,7 +14,7 @@
 
 1. clone
 2. pod install
-3. 在 Pods 里找到 Chart Target 的编译设置, 并将其中的 Swfit 版本切换到 Swift 4
+3. 在 Pods 里找到 Chart Target 的编译设置, 并将其中的 Swift 版本切换到 Swift 4
 
 ## Stack
 
