@@ -2,7 +2,7 @@
 
 记账类工具**喵账簿** iOS 客户端仓库
 
-<img src="https://cloud.githubusercontent.com/assets/219689/5575342/963e0ee8-9013-11e4-8091-7ece67d64729.png" width="120" alt="AppStore"/>[appstore](itms-apps://itunes.apple.com/app/id1308678908)
+[<img src="https://cloud.githubusercontent.com/assets/219689/5575342/963e0ee8-9013-11e4-8091-7ece67d64729.png" width="120" alt="AppStore"/>](https://apps.apple.com/cn/app/id1308678908)
 
 <img src="https://github.com/Rannie/cat-account-ios/blob/master/UXResource/Screen%20Shot%202019-08-01%20at%209.25.41%20AM.png" width="25%"><img src="https://github.com/Rannie/cat-account-ios/blob/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.13%20AM.png" width="25%"><img src="https://github.com/Rannie/cat-account-ios/blob/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.26%20AM.png" width="25%"><img src="https://github.com/Rannie/cat-account-ios/blob/master/UXResource/Screen%20Shot%202019-08-01%20at%209.27.35%20AM.png" width="25%"> 
 
