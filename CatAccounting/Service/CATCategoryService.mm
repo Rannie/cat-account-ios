@@ -133,12 +133,12 @@ static NSString * const kCategoryVersionKey = @"category_version";
     
     if (isIncome) {
         [self.inList addObject:newCate];
-        NSString *outKey = [NSString stringWithFormat:@"out_%@", newCate.name];
-        self.map[outKey] = newCate;
-    } else {
-        [self.outList addObject:newCate];
         NSString *inKey = [NSString stringWithFormat:@"in_%@", newCate.name];
         self.map[inKey] = newCate;
+    } else {
+        [self.outList addObject:newCate];
+        NSString *outKey = [NSString stringWithFormat:@"out_%@", newCate.name];
+        self.map[outKey] = newCate;
     }
 }
 
