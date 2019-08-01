@@ -10,6 +10,12 @@
 
 应该不再更新了，开源出来方便一些初学者学习 iOS , 当然如果有好的功能建议也可以提 issue   或者 PR 。
 
+## Setup
+
+1. clone
+2. pod install
+3. switch swift version to Swift 4 in Chart's build settings
+
 ## Stack
 
 * 语言为 Objective-C
