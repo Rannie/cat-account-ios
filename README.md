@@ -10,13 +10,13 @@
 
 应该不再更新了，开源出来方便一些初学者学习 iOS , 当然如果有好的功能建议也可以提 issue   或者 PR 。
 
-## Setup
+## 使用
 
 1. clone
 2. pod install
 3. 在 Pods 里找到 Chart Target 的编译设置, 并将其中的 Swift 版本切换到 Swift 4
 
-## Stack
+## 技术栈
 
 * 语言为 Objective-C
 * 布局大部分使用 Masonry
@@ -24,6 +24,10 @@
 * 数据库及 Key-Value 使用的 WCDB
 * 图表为 Charts
 * 打包一开始 TF 还不属于 Apple，那时候使用的 FIR， 后来用的 TF + Fastlane，由于里面有些账号信息所以不放上来了
+
+## 微信公众号
+
+![wechat](https://raw.githubusercontent.com/Rannie/Rannie.github.io/master/images/Wechat.jpeg)
 
 ## License
 
