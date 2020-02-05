@@ -23,7 +23,6 @@
 * UI 基于 QMUI
 * 数据库及 Key-Value 使用的 WCDB
 * 图表为 Charts
-* 打包一开始 TF 还不属于 Apple，那时候使用的 FIR， 后来用的 TF + Fastlane，由于里面有些账号信息所以不放上来了
 
 ## 微信公众号
 
